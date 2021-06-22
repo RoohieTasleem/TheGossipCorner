@@ -32,16 +32,16 @@ Bootstrap v5.0.1
 
 ## Notable features
 
-Login <br/>
+**Login** <br/>
     &nbsp; We get a Toast message on successfull login. Toast stays for 1 min and dismisses. <br/>
     &nbsp; Alter message in the modal for unsuccessfull login. <br/>
     &nbsp; User has a session timming of 60 mins. <br/>
-Logout <br/>
-Autologin <br/>
+**Logout** <br/>
+**Autologin** <br/>
     &nbsp; User will be auto loggedin on every page refresh within 60 mins of their current session. And the session timming is reset to 60 mins. <br/>
-Autologout <br/>
+**Autologout** <br/>
     &nbsp; After the session of 60 mins expires, the user is auto logged out. And they are notified of the same with a popup.<br/>
-Gallery for private users <br/>
+**Gallery for private users**<br/>
     &nbsp; The user can click on the tiles to see the detailed gossip in a popup.<br/>
-Home ( different gossip for private and public user ). <br/>
-About <br/>
+**Home** ( different gossip for private and public user ). <br/>
+**About** <br/>
