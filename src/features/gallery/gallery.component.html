@@ -1,0 +1,26 @@
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-4 galleryCards" >
+  <div class="col" *ngFor="let gallery of galleries; let i = index" (click)="modalClick(i)" data-bs-toggle="modal" data-bs-target="#gossipModal">
+    <div class="card">
+      <img src="{{gallery.image}}" class="card-img-top" alt="gossip image">
+      <div class="card-body">
+        <p class="card-text">{{gallery.title}}</p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <div class="modal fade" id="gossipModal" tabindex="-1" aria-labelledby="gossipModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="gossipModalLabel">Gossip</h5>
+                <button type="button" #closeLoginModal class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p *ngFor="let gossip of gossipies; let i = index" class="mb-2">
+              {{gossip}} 
+            </p>
+        </div>
+    </div>
+  </div>

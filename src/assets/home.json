@@ -1,0 +1,40 @@
+{
+	"loggedInUser":
+	[
+		{
+        "title": "Marvel Fires a major player!!!",
+        "image": "https://www.usmagazine.com/wp-content/uploads/2018/07/James-Gunn.jpg?w=800&quality=86&strip=all"
+		},
+		{
+        "title": "Elizabeth Olsen steps out with her husband and more star snaps",
+        "image": "https://imagez.tmz.com/image/59/4by3/2021/06/21/59a8dfc1603647759e10f266da66e2c8_md.jpg"
+		},
+		{
+			"title": "Bindi Irwin Announces Social Media Hiatus After Speaking Out Against Estranged Grandfather!",
+			"image": "https://perezhilton.com/wp-content/uploads/2021/06/bindi-irwin-social-media-break-1024x718.jpg"
+		},
+		{
+			"title": "Scott Disick Blasts Judgement Over Dating 'Young Girls' -- & Reveals How He REALLY Feels About Kourtney & Travis!",
+			"image": "https://perezhilton.com/wp-content/uploads/2021/06/kourtney-kardashian-scott-disick-kuwtk-reunion-relationship-reveal-discussion-blessings-1024x683.jpg"
+		}
+    ],
+	"notLoggedInUser":
+	[
+		{
+        "title": "‘Friends’ actor James Michael Tyler reveals stage 4 cancer battle",
+        "image": "https://www.nydailynews.com/resizer/Y7D1vFYFMTJdwupU46vZ860gXxk=/800x612/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/PRLZHIAQZJHC7AG637CKZU7BAY.jpg"
+		},
+		{
+        "title": "Prince Charles Reportedly Won’t Allow Archie To Become A Prince When He Is King!",
+        "image": "https://perezhilton.com/wp-content/uploads/2021/06/Prince-Charles-Reportedly-Wont-Allow-Archie-To-Become-A-Prince-When-He-Is-King-1024x821.jpg"
+		},
+		{
+			"title": "Bindi Irwin Announces Social Media Hiatus After Speaking Out Against Estranged Grandfather!",
+			"image": "https://perezhilton.com/wp-content/uploads/2021/06/bindi-irwin-social-media-break-1024x718.jpg"
+		},
+		{
+			"title": "Scott Disick Blasts Judgement Over Dating 'Young Girls' -- & Reveals How He REALLY Feels About Kourtney & Travis!",
+			"image": "https://perezhilton.com/wp-content/uploads/2021/06/kourtney-kardashian-scott-disick-kuwtk-reunion-relationship-reveal-discussion-blessings-1024x683.jpg"
+		}
+    ]
+}

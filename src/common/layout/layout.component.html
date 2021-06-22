@@ -1,0 +1,36 @@
+<main class="layout">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between py-2 mb-4 border-bottom">
+    <div class="d-flex align-items-center col-sm-3 mb-2 mb-sm-0 ">
+      <a href="/" class="text-dark text-decoration-none"
+        routerLink="home">
+        The Gossip Corner
+      </a>
+    </div>
+
+    <ul class="nav col-12 col-sm-auto mb-2 justify-content-center mb-sm-0">
+      <li class="mx-1"><a href="#" class="nav-link px-2 link-dark" routerLinkActive="active" routerLink="home">Home</a>
+      </li>
+      <li class="mx-1"><a href="#" class="nav-link px-2 link-dark" routerLinkActive="active"
+          routerLink="about-us">About</a></li>
+      <li class="mx-1"><a href="#" class="nav-link px-2 link-dark" routerLinkActive="active" routerLink="gallery"
+          *ngIf="isAuth">Gallery</a></li>
+    </ul>
+    <div class="col-sm-3 text-end">
+      <div class="float-end">
+        <p *ngIf="isAuth" class="mb-1 fs-5">
+        <i class="bi bi-person-circle mx-1"></i> Welcome {{this.user.username}}</p>
+        <button type="button" class="btn btn-outline-primary" *ngIf="isAuth" (click)="onLogout()">Logout</button>
+      </div>
+      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#loginModal"
+        *ngIf="!isAuth">Login</button>
+    </div>
+  </header>
+  <article class="px-3">
+    <router-outlet></router-outlet>
+  </article>
+  <footer>
+    <p class="m-0"> &copy; 2021 The Gossip corner</p>
+  </footer>
+</main>
+<app-auth></app-auth>
